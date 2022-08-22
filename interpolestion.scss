@@ -1,0 +1,5 @@
+$name: foo;
+$color: color;
+article.#{$name} {
+  #{$color}: #ff0000;
+}

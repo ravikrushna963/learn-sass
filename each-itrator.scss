@@ -1,0 +1,6 @@
+@each $big-cat in puma, jaguar, panther, tiger, leopard {
+    .#{$big-cat}-picture {
+      background-image: url('/images/#{$big-cat}.png');
+      padding: 3em;
+    }
+  }

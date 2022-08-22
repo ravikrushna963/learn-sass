@@ -1,0 +1,12 @@
+@mixin border-thickness ($new-thiknrss ) {
+    -webkit-border-radius: $new-thiknrss;
+       -moz-border-radius: $new-thiknrss;
+        -ms-border-radius: $new-thiknrss;
+            border-radius: $new-thiknrss;
+  }
+
+  .img { 
+    @include border-thickness(10px);
+    @content 
+   
+   }

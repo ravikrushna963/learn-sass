@@ -1,0 +1,24 @@
+.puma-picture {
+  background-image: url("/images/puma.png");
+  padding: 3em;
+}
+
+.jaguar-picture {
+  background-image: url("/images/jaguar.png");
+  padding: 3em;
+}
+
+.panther-picture {
+  background-image: url("/images/panther.png");
+  padding: 3em;
+}
+
+.tiger-picture {
+  background-image: url("/images/tiger.png");
+  padding: 3em;
+}
+
+.leopard-picture {
+  background-image: url("/images/leopard.png");
+  padding: 3em;
+}/*# sourceMappingURL=each-itrator.css.map */

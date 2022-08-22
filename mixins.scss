@@ -1,0 +1,8 @@
+@mixin border-radius($thickness) {
+    -webkit-border-radius: $thickness;
+       -moz-border-radius: $thickness;
+        -ms-border-radius: $thickness;
+            border-radius: $thickness;
+  }
+
+  .img { @include border-radius(10px); }
